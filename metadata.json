@@ -1,0 +1,8 @@
+{
+  "name": "Laporan BerAKHLAK Pengawas SMA",
+  "description": "Aplikasi penyusunan dan ekspor Laporan Bulanan BerAKHLAK Pengawas SMA dengan fitur multi-kategori, pratinjau interaktif, serta unduh Microsoft Word (DOCX) dan PDF ukuran F4 Landscape margin 1 cm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

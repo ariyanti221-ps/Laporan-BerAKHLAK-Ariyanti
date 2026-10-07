@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laporan BerAKHLAK Pengawas SMA - F4 Landscape</title>
+    <meta name="description" content="Aplikasi penyusunan dan ekspor Laporan Bulanan BerAKHLAK Pengawas SMA dengan format resmi Microsoft Word (DOCX) dan PDF F4 Landscape margin 1 cm." />
+    <meta property="og:title" content="Laporan BerAKHLAK Pengawas SMA - F4 Landscape" />
+    <meta property="og:description" content="Aplikasi penyusunan dan ekspor Laporan Bulanan BerAKHLAK Pengawas SMA dengan format resmi Microsoft Word (DOCX) dan PDF F4 Landscape margin 1 cm." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      @page {
+        size: 330mm 215mm landscape;
+        margin: 10mm;
+      }
+      @media print {
+        body {
+          background: white !important;
+          color: black !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+        .print-only {
+          display: block !important;
+        }
+        .page-break-after {
+          page-break-after: always;
+          break-after: page;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-blue-100 selection:text-blue-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
